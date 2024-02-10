@@ -1,0 +1,7 @@
+az storage account create 
+  --name heyyyyyy 
+  --resource-group learning 
+  --location eastus 
+  --sku Standard_RAGRS 
+  --kind StorageV2 
+  --allow-blob-public-access false
