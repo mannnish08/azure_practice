@@ -1,0 +1,9 @@
+az vm create `
+>>     --resource-group learning `
+>>     --name testing-cli `
+>>     --image Ubuntu2204 `
+>>     --vnet-name test-cli-vnet `
+>>     --subnet example-cli `
+>>     --generate-ssh-keys `
+>>     --output json `
+>>     --verbose
